@@ -1,0 +1,25 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.hero-container img {
+    width: 100%;
+    /*  height:240px;  */
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%; 
+    text-align: center;
+    padding: 0px 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}

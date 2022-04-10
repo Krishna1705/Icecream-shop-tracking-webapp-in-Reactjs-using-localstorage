@@ -1,0 +1,25 @@
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: white;
+  background-color: #D463F0;
+  display: block;
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+input.focus{
+  color: white;
+}
+.btn-container {
+  position: relative;
+  margin-top: 550px;
+}
